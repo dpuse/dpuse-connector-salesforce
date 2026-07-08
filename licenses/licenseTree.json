@@ -1,6 +1,6 @@
 {
-  "version": "0.0.4",
-  "name": "@dpuse/dpuse-connector-template",
+  "version": "0.0.11",
+  "name": "@dpuse/dpuse-connector-salesforce",
   "dependencies": {
     "@dpuse/dpuse-shared": {
       "version": "0.3.737",
