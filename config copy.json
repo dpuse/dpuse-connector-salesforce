@@ -30,17 +30,15 @@
     "implementations": {
         "apiKey": {
             "authMethodId": "apiKey",
+            "canDescribe": true,
+            "label": "Enter a Salesforce API Key",
             "maxConnectionCount": -1,
-            "params": [
-                {
-                    "id": "apiKey",
-                    "label": "API Key",
-                    "type": "string"
-                }
-            ]
+            "params": [{ "id": "apiKey", "label": "API Key", "type": "string" }]
         },
         "oAuth2": {
             "authMethodId": "oAuth2",
+            "canDescribe": true,
+            "label": "Sign in using a Salesforce Account",
             "maxConnectionCount": -1
         }
     },
@@ -53,5 +51,5 @@
     "vendorAccountURL": null,
     "vendorDocumentationURL": null,
     "vendorHomeURL": null,
-    "version": "0.0.11"
+    "version": "0.0.10"
 }

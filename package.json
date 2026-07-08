@@ -1,6 +1,6 @@
 {
     "name": "@dpuse/dpuse-connector-salesforce",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "private": false,
     "description": "Template scaffold for building new DPUse connectors.",
     "license": "MIT",
