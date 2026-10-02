@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-09-30T15:37:07.370Z",
+    "generatedAt": "2026-10-02T10:27:56.907Z",
     "integration": "vite",
     "sources": false,
     "gzip": true,
@@ -22,7 +22,7 @@
       "type": "other",
       "format": "other",
       "uncompressed": 9880,
-      "gzip": 3614,
+      "gzip": 3618,
       "brotli": 0,
       "parent": "dist/dpuse-connector-salesforce.es.js"
     },
@@ -38,7 +38,7 @@
       "name": "dist/dpuse-connector-salesforce.es.js",
       "type": "script",
       "uncompressed": 20981,
-      "gzip": 6656,
+      "gzip": 6661,
       "brotli": 0
     },
     {
@@ -54,7 +54,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 8296,
-      "gzip": 2556,
+      "gzip": 2557,
       "brotli": 0,
       "parent": "dist/dpuse-connector-salesforce.es.js"
     },
