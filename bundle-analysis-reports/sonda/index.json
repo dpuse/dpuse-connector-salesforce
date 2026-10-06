@@ -1,7 +1,7 @@
 {
   "metadata": {
     "version": "0.14.0",
-    "generatedAt": "2026-10-03T14:49:22.064Z",
+    "generatedAt": "2026-10-06T12:14:57.164Z",
     "integration": "vite",
     "sources": false,
     "gzip": true,
@@ -21,8 +21,8 @@
       "name": "[unassigned]",
       "type": "other",
       "format": "other",
-      "uncompressed": 9880,
-      "gzip": 3618,
+      "uncompressed": 9918,
+      "gzip": 3651,
       "brotli": 0,
       "parent": "dist/dpuse-connector-salesforce.es.js"
     },
@@ -31,14 +31,14 @@
       "name": "config.json",
       "type": "script",
       "format": "esm",
-      "uncompressed": 8783
+      "uncompressed": 8821
     },
     {
       "kind": "asset",
       "name": "dist/dpuse-connector-salesforce.es.js",
       "type": "script",
-      "uncompressed": 20981,
-      "gzip": 6661,
+      "uncompressed": 21019,
+      "gzip": 6693,
       "brotli": 0
     },
     {
@@ -46,7 +46,7 @@
       "name": "node_modules/@dpuse/dpuse-shared/dist/dpuse-shared.es.js",
       "type": "script",
       "format": "esm",
-      "uncompressed": 33907
+      "uncompressed": 35924
     },
     {
       "kind": "chunk",
@@ -54,7 +54,7 @@
       "type": "script",
       "format": "esm",
       "uncompressed": 8296,
-      "gzip": 2557,
+      "gzip": 2556,
       "brotli": 0,
       "parent": "dist/dpuse-connector-salesforce.es.js"
     },

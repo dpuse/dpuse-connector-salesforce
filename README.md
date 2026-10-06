@@ -3,7 +3,7 @@
 <!-- OPENING_START -->
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
-[![DPUse version](https://img.shields.io/github/v/release/dpuse/dpuse-connector-salesforce?color=f6821f&label=DPUse)](https://github.com/dpuse/dpuse-connector-salesforce/releases/latest)
+[![DPUse version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.dpuse.app%2Fconfigs%2Fdpuse-connector-salesforce&query=%24.data.version&prefix=v&label=DPUse&color=f6821f)](https://github.com/dpuse/dpuse-connector-salesforce/releases/latest)
 [![CI](https://github.com/dpuse/dpuse-connector-salesforce/actions/workflows/ci.yml/badge.svg)](https://github.com/dpuse/dpuse-connector-salesforce/actions/workflows/ci.yml)
 
 Template scaffold for building new DPUse connectors.
@@ -82,16 +82,16 @@ This repository is managed using the common set of actions provided by [@dpuse/d
 
 License data is updated each time `npm run document` is run, using [license-checker](https://github.com/RSeidelsohn/license-checker-rseidelsohn). The following table lists every package whose code, styles or assets are included in this project's build, as recorded by the build itself. Modules loaded at run time are not included; each documents its own. These dependencies have been checked and confirmed to use MIT, all of which allow commercial use. All are used unmodified, so any licence conditions that apply only to modified versions are not triggered. Developers cloning this repository should independently verify development dependencies.
 
-| Dependency                                                   | Version | License(s) | Document                                                            |
-| :----------------------------------------------------------- | :-----: | :--------- | :------------------------------------------------------------------ |
-| [@dpuse/dpuse-shared](https://github.com/dpuse/dpuse-shared) |  1.0.2  | MIT        | [LICENSE](licenses/downloads/@dpuse/dpuse-shared@1.0.2-LICENSE.txt) |
-| [valibot](https://github.com/open-circle/valibot)            |  1.5.0  | MIT        | [LICENSE](licenses/downloads/valibot@1.5.0-LICENSE.txt)             |
+| Dependency                                                   | Version | License(s) | Document                                                              |
+| :----------------------------------------------------------- | :-----: | :--------- | :-------------------------------------------------------------------- |
+| [@dpuse/dpuse-shared](https://github.com/dpuse/dpuse-shared) | 1.0.113 | MIT        | [LICENSE](licenses/downloads/@dpuse/dpuse-shared@1.0.113-LICENSE.txt) |
+| [valibot](https://github.com/open-circle/valibot)            |  1.5.0  | MIT        | [LICENSE](licenses/downloads/valibot@1.5.0-LICENSE.txt)               |
 
 ### Dependency Tree
 
 The dependency tree below shows how each package in the table above is reached — direct and transitive — along with its installed version, release date, and update status. A package that does not ship itself, such as one whose parts are bundled separately, is left out and what ships beneath it is shown in its place. Packages flagged ❗ have a newer version available; ⚠️ indicates a package that hasn't been updated in the last 6 months or longer. Neither flag necessarily indicates a problem: we let new releases stabilise before upgrading, and some packages are mature and stable (have limited or no dependencies), so they require no active development.
 
-- **[@dpuse/dpuse-shared](https://github.com/dpuse/dpuse-shared)** 1.0.2 — this month: 2026-10-03
+- **[@dpuse/dpuse-shared](https://github.com/dpuse/dpuse-shared)** 1.0.113 — this month: 2026-10-05 → latest: 1.0.116 — this month: 2026-10-06 ❗
     - **[valibot](https://github.com/open-circle/valibot)** 1.5.0 — this month: 2026-09-09
 
 <!-- DEPENDENCY_LICENSES_END -->
@@ -108,8 +108,8 @@ _Note: Sonda's Vite reports currently exclude CSS files, since Vite does not gen
 | :-------------------------------------------------------------------- | :------------------------------------------ |
 | **dist/dpuse-connector-salesforce.es.js**                             | 20.5 kB · gzip 6.5 kB · 100.0% of the build |
 | &nbsp;&nbsp;&nbsp;&nbsp;@dpuse/dpuse-shared → dist/dpuse-shared.es.js | `████████░░░░░░░░░░░░` 39.5% · 8.1 kB       |
-| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                                | `███░░░░░░░░░░░░░░░░░` 13.4% · 2.7 kB       |
-| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)           | `█████████░░░░░░░░░░░` 47.1% · 9.6 kB       |
+| &nbsp;&nbsp;&nbsp;&nbsp;src → index.ts                                | `███░░░░░░░░░░░░░░░░░` 13.3% · 2.7 kB       |
+| &nbsp;&nbsp;&nbsp;&nbsp;(bundler output, whitespace & JSON)           | `█████████░░░░░░░░░░░` 47.2% · 9.7 kB       |
 
 Bars show each row's share of its output file.
 
